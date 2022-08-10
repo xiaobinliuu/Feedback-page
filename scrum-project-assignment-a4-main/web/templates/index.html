@@ -1,0 +1,11 @@
+{% extends "wrapper.html" %}
+
+<title>{% block title %}Kahut! - Enter Game{% endblock %}</title>
+{% block pin %}
+<div id="pin">
+    <form action="#" method="post" id="pinf">
+        <input name="pin" type="tel" placeholder="Game PIN" autocomplete="off" id="pinp"><br><br>
+        <button id="pine">Enter Game</button>
+    </form>
+</div>
+{% endblock %}
